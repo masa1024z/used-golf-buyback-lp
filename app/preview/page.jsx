@@ -42,6 +42,104 @@ export default function Preview(){
           <h3>無料宅配キット（デモ）</h3>
           <p>箱3サイズ・緩衝材・着払い伝票・梱包マニュアルをご用意します。</p>
         </section>
+
+        <section id="faq" className="container" style={{padding: '32px 0'}}>
+          <h2 style={{textAlign: 'center', marginBottom: '24px'}}>よくあるご質問</h2>
+          <div style={{
+            maxWidth: '800px',
+            margin: '0 auto',
+            display: 'grid',
+            gap: '16px',
+            padding: '0 16px'
+          }}>
+            <details style={{
+              border: '1px solid #e2e8f0',
+              borderRadius: '8px',
+              overflow: 'hidden',
+              transition: 'all 0.3s ease'
+            }}>
+              <summary style={{
+                padding: '16px',
+                backgroundColor: '#f8fafc',
+                cursor: 'pointer',
+                fontWeight: '600',
+                outline: 'none',
+                listStyle: 'none',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+              }}>
+                <span>査定はどのように行いますか？</span>
+                <span style={{fontSize: '1.25rem'}}>+</span>
+              </summary>
+              <div style={{
+                padding: '16px',
+                backgroundColor: '#fff',
+                borderTop: '1px solid #e2e8f0'
+              }}>
+                <p>写真を送っていただければ24時間以内に査定額をお知らせします。商品到着後、改めて本査定を実施し、査定額に納得いただけましたら買取成立となります。</p>
+              </div>
+            </details>
+
+            <details style={{
+              border: '1px solid #e2e8f0',
+              borderRadius: '8px',
+              overflow: 'hidden',
+              transition: 'all 0.3s ease'
+            }}>
+              <summary style={{
+                padding: '16px',
+                backgroundColor: '#f8fafc',
+                cursor: 'pointer',
+                fontWeight: '600',
+                outline: 'none',
+                listStyle: 'none',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+              }}>
+                <span>送料はかかりますか？</span>
+                <span style={{fontSize: '1.25rem'}}>+</span>
+              </summary>
+              <div style={{
+                padding: '16px',
+                backgroundColor: '#fff',
+                borderTop: '1px solid #e2e8f0'
+              }}>
+                <p>当社負担の着払い伝票をお送りしますので、お客様の送料負担は一切ございません。無料の宅配キットもご用意しておりますので、お気軽にご利用ください。</p>
+              </div>
+            </details>
+
+            <details style={{
+              border: '1px solid #e2e8f0',
+              borderRadius: '8px',
+              overflow: 'hidden',
+              transition: 'all 0.3s ease'
+            }}>
+              <summary style={{
+                padding: '16px',
+                backgroundColor: '#f8fafc',
+                cursor: 'pointer',
+                fontWeight: '600',
+                outline: 'none',
+                listStyle: 'none',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+              }}>
+                <span>入金はどのタイミングで行われますか？</span>
+                <span style={{fontSize: '1.25rem'}}>+</span>
+              </summary>
+              <div style={{
+                padding: '16px',
+                backgroundColor: '#fff',
+                borderTop: '1px solid #e2e8f0'
+              }}>
+                <p>お客様に査定額をご確認いただき、ご了承いただきましたら、即日で入金手続きをさせていただきます。通常、ご承認いただいてから翌営業日（T+1）以内にお振り込みいたします。</p>
+              </div>
+            </details>
+          </div>
+        </section>
       </main>
 
       <footer style={{background:"#111",color:"#fff",padding:"24px 0"}}>
